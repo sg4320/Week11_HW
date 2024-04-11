@@ -1,4 +1,4 @@
-def GetBondPrice(y,face,couponRate, m,ppy=1):
+def getBondPrice(y,face,couponRate, m,ppy=1):
         # Calculate the coupon payment
     coupon_payment = face * couponRate / ppy
     # Initialize the bond price
