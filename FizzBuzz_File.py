@@ -1,4 +1,4 @@
-def fizzbuzz(start, finish):
+def FizzBuzz(start, finish):
     outlist = []
     for i in range(start,finish+1):
         if i%3 == 0 and i%5 == 0:
